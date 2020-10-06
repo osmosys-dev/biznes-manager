@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Businesses</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="welcome-wrapper">
+    <ion-list>
+      <ion-card [routerLink]="['/home']" class="ion-activated">
+        <ion-icon name="chevron-forward-outline" class="next-icon"></ion-icon>
+        <ion-card-header>
+          <ion-card-title>Business name</ion-card-title>
+          <ion-card-subtitle color="success">Active</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <span> <strong>40</strong></span> <br />
+                Products</ion-col
+              >
+              <ion-col>
+                <span> <strong>6</strong></span> <br />
+                Suppliers</ion-col
+              >
+              <ion-col>
+                <span> <strong>$180.99</strong></span> <br />
+                Margin</ion-col
+              >
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-list>
+  </div>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="dark">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
