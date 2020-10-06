@@ -1,0 +1,7 @@
+{
+  "name": "biznes-manager",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
